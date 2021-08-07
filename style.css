@@ -24,7 +24,7 @@ body {
   font-size: 40px;
 }
 .item-1 p {
-  width: 28rem;
+  width: 24rem;
   line-height: 20px;
   margin-top: 12px;
   color: hsl(303, 10%, 53%);
@@ -37,11 +37,12 @@ body {
   color: hsl(300, 43%, 22%);
   font-size: 12px;
   font-weight: 700;
+  width: 24rem;
 }
 .item-3 {
   grid-column: 1 / span 2;
   padding: 2rem;
-  margin-left: 2rem;
+  /* margin-left: 1.5rem; */
 }
 .star-1 {
   margin: 8px;
@@ -115,6 +116,10 @@ body {
   background-color: hsl(300, 43%, 22%);
   border-radius: 10px;
 }
+.item-3 div
+{
+  width: 14rem;
+}
 .person-1 img {
   border-radius: 100%;
   width: 50px;
@@ -131,6 +136,7 @@ body {
   line-height: 20px;
   color: hsl(0, 0%, 100%);
   font-size: 12px;
+  /* width: 14.2rem; */
 }
 .person-2 p {
   line-height: 20px;
